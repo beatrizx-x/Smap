@@ -5,11 +5,11 @@
     <section class="container">
         <div class="header">
             <div class="nomeUser">
-                <h1>{{usuarioLogado()?.nome}}👋</h1>
-                <p>data atual</p>
+                <h1>{{usuarioLogado()?.nome}}Olá Ana👋</h1>
+                <p>Quarta-feira, 14 de outubro </p>
             </div>
             <div class="user-actions">
-                <img class="fotouser" src="/assets/user.jpg" alt="foto do usuario">
+                <img class="fotouser" src="https://media.licdn.com/dms/image/v2/D4D03AQGiD9mzsrZGSw/profile-displayphoto-scale_400_400/B4DZ9KMHwqJ8Ag-/0/1783656120527?e=1793232000&v=beta&t=tLe4_gE-hsjXt2DsZbeepw6U8vFyxEy6EbNhFiEAwng" alt="foto do usuario">
                 <a routerLink="/perfil-config">
                     <img class="config" src="/assets/settings-icons.png"></a>
             </div>
@@ -17,8 +17,8 @@
 
         <div class="header-desktop">
             <div class="nomeUser">
-                <h1>Olá, {{usuarioLogado()?.nome}} 👋</h1>
-                <p>Quarta-feira, 26 de Janeiro</p>
+                <h1>Olá Ana{{usuarioLogado()?.nome}} 👋</h1>
+                <p>Quarta-feira, 14 de outubro</p>
             </div>
             <img class="ilustracao-cidade" src="assets/profile-hero-desktop.png" alt="Ilustração de Blumenau">
         </div>
@@ -33,15 +33,66 @@
             </div>
         </a>
 
-        <section class="ocorrencias">
-            <div class="text-minhas-ocorrencias">
-                <h2>Minhas ocorrências</h2>
-                <a routerLink="/ocorrenciasRegistrada">Ver todas</a>
+      
+<section class="ocorrencias">
+    <div class="text-minhas-ocorrencias">
+        <h2>Minhas ocorrências</h2>
+        <a routerLink="/ocorrenciasRegistrada">Ver todas</a>
+    </div>
+
+    <div class="list-ocorrencia">
+
+        <div class="card-ocorrencia">
+            <div class="icone-ocorrencia icone-alerta">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="28" height="28"
+                     viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <path d="m10.3 3.9-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.7-3.1l-8-14a2 2 0 0 0-3.4 0Z"/>
+                    <path d="M12 9v4"/>
+                    <path d="M12 17h.01"/>
+                </svg>
             </div>
-            <div class="list-ocorrencia">
-                <img src="" width="40px" height="40px" loading="lazy">
+
+            <div class="info-ocorrencia">
+                <h3>Asfalto Cedendo</h3>
+                <p>Rua Joinville, Garcia</p>
             </div>
-        </section>
+
+            <span class="status-ocorrencia status-encaminhada">
+                Encaminhada
+            </span>
+        </div>
+
+        <div class="card-ocorrencia">
+            <div class="icone-ocorrencia icone-poste">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="28" height="28"
+                     viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <path d="M9 3h6v4H9z"/>
+                    <path d="M7 7h10l-1 4v9a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-9z"/>
+                    <path d="M10 11h4"/>
+                </svg>
+            </div>
+
+            <div class="info-ocorrencia">
+                <h3>Poste Apagado</h3>
+                <p>Av. Brasil, Ponta Aguda</p>
+            </div>
+
+            <span class="status-ocorrencia status-concluida">
+                Concluída
+            </span>
+        </div>
+
+    </div>
+</section>
+
 
         <h3>Mapa do bairro </h3>
         <div id="mapa">

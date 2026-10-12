@@ -101,35 +101,119 @@
 }
 
 .text-minhas-ocorrencias {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
 }
 
 .text-minhas-ocorrencias h2 {
-  font-size: 18px;
-  font-weight: bold;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 .text-minhas-ocorrencias a {
-  font-size: 13px;
-  font-weight: 700;
-  color: #16c1a3;
+    color: #00bfa5;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.text-minhas-ocorrencias a:hover {
+    color: #009e89;
+    text-decoration: underline;
 }
 
 .list-ocorrencia {
-  width: 100%;
-  height: 73px;
-  background-color: #ffffff;
-  padding: 16px;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
 }
 
 .ocorrencias {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+ 
+   width: 100%;
+  color: #0d1b2a;
+}
+.card-ocorrencia {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    min-height: 106px;
+    box-sizing: border-box;
+    padding: 20px 22px;
+    background-color: #ffffff;
+    border: 1px solid #dce5f0;
+    border-radius: 18px;
+}
+
+.icone-ocorrencia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    border-radius: 13px;
+}
+
+.icone-alerta {
+    color: #e87900;
+    background-color: #fbf0e4;
+}
+
+.icone-poste {
+    color: #00bfa5;
+    background-color: #e5f8f5;
+}
+
+.info-ocorrencia {
+    flex: 1;
+    min-width: 0;
+}
+
+.info-ocorrencia h3 {
+    margin: 0 0 6px;
+    color: #0d1b2a;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.info-ocorrencia p {
+    margin: 0;
+    color: #637897;
+    font-size: 17px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.status-ocorrencia {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 9px 15px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.status-encaminhada {
+    color: #387dff;
+    background-color: #eaf1ff;
+}
+
+.status-concluida {
+    color: #00bfa5;
+    background-color: #e5f8f5;
 }
 #mapa {
   width: 100%;
@@ -213,7 +297,53 @@
 }
 
  @media (min-width: 700px) {
-    
+     .text-minhas-ocorrencias {
+        margin-bottom: 16px;
+    }
+
+    .text-minhas-ocorrencias h2 {
+        font-size: 20px;
+    }
+
+    .text-minhas-ocorrencias a {
+        font-size: 14px;
+    }
+
+    .list-ocorrencia {
+        gap: 12px;
+    }
+
+    .card-ocorrencia {
+        gap: 12px;
+        min-height: 88px;
+        padding: 14px;
+        border-radius: 14px;
+    }
+
+    .icone-ocorrencia {
+        width: 46px;
+        height: 46px;
+        border-radius: 11px;
+    }
+
+    .icone-ocorrencia svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .info-ocorrencia h3 {
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+
+    .info-ocorrencia p {
+        font-size: 13px;
+    }
+
+    .status-ocorrencia {
+        padding: 7px 9px;
+        font-size: 12px;
+    }
    .desktop-sidebar {
         display: block;
         background-color: #f7f7f4 !important; 
