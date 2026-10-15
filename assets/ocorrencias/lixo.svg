@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Ilustração de descarte irregular de lixo">
+  <path fill="#dcefe5" d="M0 0h1200v675H0z"/><path fill="#7cb47e" d="M0 420q260-95 480 12t720-20v263H0z"/><path fill="#596964" d="M0 520h1200v155H0z"/>
+  <path fill="#253a35" d="m360 325 145 22 45 245-240-5z"/><path fill="#385149" d="m660 350 118-8 72 238-234 8z"/><path fill="#c7d2cc" d="m438 430 54 18-20 85-60-14z"/><path fill="#e7b747" d="m704 419 72 25-32 64-68-24z"/>
+  <rect x="54" y="48" width="550" height="92" rx="22" fill="#123f32"/><text x="88" y="109" fill="white" font-family="Arial" font-size="46" font-weight="700">Descarte irregular</text>
+</svg>

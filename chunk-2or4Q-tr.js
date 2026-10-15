@@ -1,0 +1,1 @@
+var n={apiUrl:`http://${typeof window<`u`?window.location.hostname:`localhost`}:18080`};export{n as t};

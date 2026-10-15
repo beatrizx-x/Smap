@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Ilustração de calçada sem acessibilidade">
+  <path fill="#dcefe5" d="M0 0h1200v675H0z"/><path fill="#8ea49a" d="M0 380h1200v295H0z"/><path fill="#d9d1bb" d="m0 410 1200-90v190L0 600z"/><path fill="#47635a" d="m480 368 192-14 38 190-235 18z"/><circle cx="570" cy="295" r="48" fill="#176b4d"/><circle cx="560" cy="465" r="112" fill="none" stroke="#176b4d" stroke-width="28"/><path d="m570 340 70 104 120 8m-174-42-76 112" fill="none" stroke="#176b4d" stroke-width="28" stroke-linecap="round"/>
+  <rect x="54" y="48" width="610" height="92" rx="22" fill="#123f32"/><text x="88" y="109" fill="white" font-family="Arial" font-size="46" font-weight="700">Calçada inacessível</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Ilustração de poste de iluminação apagado">
+  <defs><linearGradient id="night" y2="1"><stop stop-color="#10273d"/><stop offset="1" stop-color="#284f54"/></linearGradient></defs>
+  <path fill="url(#night)" d="M0 0h1200v675H0z"/><circle cx="980" cy="110" r="58" fill="#f4e9ad"/><circle cx="953" cy="91" r="58" fill="#10273d"/>
+  <path stroke="#182b2c" stroke-width="28" d="M605 158v517"/><path stroke="#182b2c" stroke-width="22" fill="none" d="M604 178q115-65 200 28"/><path fill="#1c3131" d="m760 190 108 24-24 74-108-24z"/><path stroke="#a9c6b6" stroke-width="12" d="m770 218 59 14"/>
+  <path fill="#1a3934" d="M0 535q220-120 410 0 170-105 365 0 195-125 425 0v140H0z"/><rect x="54" y="48" width="590" height="92" rx="22" fill="#123f32"/><text x="88" y="109" fill="white" font-family="Arial" font-size="46" font-weight="700">Iluminação apagada</text>
+</svg>

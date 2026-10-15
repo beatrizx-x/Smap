@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Ilustração de rua alagada">
+  <path fill="#c9e6ef" d="M0 0h1200v675H0z"/><path fill="#96aa9f" d="M0 320h1200v355H0z"/><path fill="#58a5c2" d="M0 460q150-55 300 0t300 0 300 0 300 0v215H0z"/>
+  <path fill="#21433d" d="M710 340h220l82 138H626z"/><circle cx="720" cy="482" r="51" fill="#17302c"/><circle cx="914" cy="482" r="51" fill="#17302c"/><path d="M0 550q150-45 300 0t300 0 300 0 300 0" fill="none" stroke="#b8e5ef" stroke-width="18"/>
+  <rect x="54" y="48" width="440" height="92" rx="22" fill="#123f32"/><text x="88" y="109" fill="white" font-family="Arial" font-size="46" font-weight="700">Alagamento</text>
+</svg>
