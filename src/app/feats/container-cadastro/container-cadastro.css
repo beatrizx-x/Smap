@@ -10,7 +10,7 @@ section {
   justify-content: space-between;
   color: #0d1b2a;
 
-  background-image: url('/assets/fundo-cadastro.jpg');
+  background-image: url('../../../../public/assets/fundo-cadastro.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +74,7 @@ p a[routerLink='/login'] {
     align-items: center;
 
     position: relative;
-    background-image: url('/assets/fundo-cadastro-desktop.jpg');
+    background-image: url('../../../../public/assets/fundo-cadastro-desktop.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +109,7 @@ p a[routerLink='/login'] {
     padding: 32px 40px;
     display: flex;
     justify-content: center;
-    background-image: url('/assets/fundo-cadastro-desktop.jpg');
+    background-image: url('../../../../public/assets/fundo-cadastro-desktop.jpg');
     background-position: center;
     background-size: cover;
   }

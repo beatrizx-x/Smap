@@ -3,7 +3,7 @@
   width: 100%;
 
   min-height: 100dvh;
-  background-image: url('/assets/fundo-mobile.jpg');
+  background-image: url('../../../../public/assets/fundo-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -89,7 +89,7 @@ p a[routerLink='/cadastro'] {
     align-items: center;
     width: 100%;
     min-height: 100dvh;
-    background-image: url('/assets/smap-admin-login-ana.jpg');
+    background-image: url('../../../../public/assets/smap-admin-login-ana.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
